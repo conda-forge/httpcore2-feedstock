@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.9.1"
+  version: "2.10.0"
   python_check_max: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/httpcore2/httpcore2-${{ version }}.tar.gz
-  sha256: 4d8acbf8b306f48c9d6046591fd5ba4037d1b1b1000d140fc2c3eab1e9a0c0e2
+  sha256: 13c0cc3d1919d4f28457f60cd2c2abe04113a8af184ccf1142811beba936f9dc
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - hatchling
     - pip
     - python ${{ python_min }}.*
-    - uv-dynamic-versioning >=0.8.0
+    - uv-dynamic-versioning >=0.14.0
   run:
     - h11 >=0.16
     - python >=${{ python_min }}
