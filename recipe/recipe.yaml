@@ -25,7 +25,7 @@ requirements:
     - hatchling
     - pip
     - python ${{ python_min }}.*
-    - uv-dynamic-versioning >=0.8.0
+    - uv-dynamic-versioning >=0.14.0
   run:
     - h11 >=0.16
     - python >=${{ python_min }}
