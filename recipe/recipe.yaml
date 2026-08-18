@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.10.0"
+  version: "2.11.0"
   python_check_max: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/httpcore2/httpcore2-${{ version }}.tar.gz
-  sha256: 13c0cc3d1919d4f28457f60cd2c2abe04113a8af184ccf1142811beba936f9dc
+  sha256: 82e6fc95d784e6ee22ebd4b2cb57df53a2efb13ad6a11260a236ecebbc5f50c7
 
 build:
   noarch: python
